@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+<meta charset="UTF-8">
+<body>  
+<title>www.baikeservices.com.br</title>
+</head>
+<script>
+function validaform ()
+		{
+         
+      }
+		d=document.cadastro;
+		//Valida nome
+		if (d.nome .value=="")
+		{
+		alert ("o campo" + d.nome.name+ "DEVE SER INSERIDO!");
+		d.nome.focus ();
+		return false;
+		}
+		
+		//valida email
+		if (d.email.value =="")
+		{
+		alert ("o campo" + d.email.name+ "Deve ser inserido!");
+		d.email.focus ();
+		return false
+		
+		//valeu email (verificação de endereço eletronico)
+		partel= d.email.value.indexof ("@");
+		parte2=d.email.value.indexof (".");
+		parte3=d.email.value.length;
+		if (!parte1>=3 && parte2>=6 && parte3>=9)
+		
+		{
+		alert ("o campo"+d.email.name +"Deve possuir endereço eletronico valido");
+		d.email.focu ();
+		return false
+		}
+		
+		//Valida telefone
+		if (d.telefone.value =="")
+		{
+		alert ("O campo"+d.telefone.name+" Deve ser inserido!");
+		d.telefone.focus ();
+		return false
+		
+		}
+		
+		//Valida campo sexo
+		
+		if (!d.sexo[0].checked && !d.sexo [1].checked)
+		{
+		
+		alert ("Escola o sexo!!");
+		return false;
+		}
+		return true;
+		}
+		</script>
+<body onLoad="alert('seja bem vindo')" onUnLoad="alert('Obrigado pela visita!')">
+<!--- Evento onLoad executa alguma ação assim que o documento é carregado no browser
+e o evento onUnLoad o usuario pode determinar uma ação assim que o
+usuario sai da página--->
+
+<form name="mensagem enviada"('mensagem enviada')"  method " onSubmit="alert(return validaForm)">
+<!--- O evento onSubmit ocorre sempre que o usuario envia o formulario. Com este
+evento o usuario podera determinar ou não o envio do formulário. Vejamos um
+exemplo para sua utilização: --->  
+	                      
+</div>
+</td>
+</tr>	   
+       <link rel="stylesheet" href="styles.css" >
+       <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+       <script src="script.js"></script>
+</ul>
+</div>
+<body background="fundo.jpg">
+    <br>
+    <center>
+    <table border="0" whidth="900" height="100">
+    <tr>
+      </tr>
+         <td bgcolor="white">
+          <ul>
+          <li>Baike Services</li>
+          <li>Rua: Ponto de Luz N: 000 Mooca S.P</li> 
+          <li>Vendas Tel:(11)00000-00000 - sac  0800300500 dúvidas e reclamações </li>  
+          <br>
+          </div>
+          <div id="site">
+          <font size="2" face"arial" color ="#000000">
+          
+          <hr size="2" align="center" "width="50%" color="#666666">
+          <MARQUEE BEHAVIOR=SCROLL DIRECTION="left" BGCOLOR="#33CCFF" WIDTH=100%> BAIKE SERVIÇOS SUA LOJA DE BICICLETAS DO BRASIL </MARQUEE>
+          <p align="center"><b>Ficha de Cadastro da Loja</B> </p></font>
+          <hr size="2" align="center" "width="50%" color="#666666">
+
+          <fieldset>
+          <legend>Dados Pessoais</legend><img src="cartao.png"p align="right">
+          
+          <p align="right"><b>Forma de pagamento</B> </p></font>
+         
+          <hr size="1" align="right" "width="10%" color="#666666">
+                    
+          <p>   
+          <label for="Nome">Nome:<br></label><input type="text" id="Nome"/>
+          <p>
+          <p>
+          <label for="Endereço">Endereco:<br></label><input type="text" id="Endereço"/>
+          </p>
+          <p>
+          <label for="Tel">Tel:<br></label><input type="Tel" id="Tel"/>
+          </p>
+          <label for="E-mail">E-mail:<br></label><input type="text" id="E-mail"/> 
+          <p>    
+          </select>
+          </p>
+          <label for="serviço">Serviço:<br></label><input type="text" id="serviço"/>
+          </fieldset> 
+          <fieldset>
+          <legend>Sexo</legend>
+         
+	<input type="radio" name="Sexo" value="masculino" checked="checked" id="masc">Masculino
+  <input type="radio" name="Sexo" value="feminino" id="fem">Feminino
+  </p>
+  </fieldset> 
+  <legend>Área de interesse</legend>  
+  </p>
+   </form>
+   </ul>
+       <p>
+        <input type="checkbox" name="interesse" value="bicicleta treck" id="bicicleta treck">Bicicleta Treck<br>
+        <input type="checkbox" name="interesse" value="bicicleta strada" id="bicicleta strada">Bicicleta Strada<br>
+        <input type="checkbox" name="interesse" value="bicicleta comum" id="bicicleta comum">Bicicleta Comum<br>
+        <input type="checkbox" name="interesse" value="bicicleta scout" id="bicicleta scout">Bicicleta Scott<br>      
+        <input type="checkbox" name="interesse" value="OUTROS" id="outros">Outros<br>
+        </p>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar formulario"> 
+        </p>
+        <p>            
+        </form>
+        </fieldset> 
+        <fieldset> 
+        <legend>Baike Services</legend>   
+               Autor: "Wilson"
+	     </ul>
+       <p>
+     </head>
+   </body>
+</html>
